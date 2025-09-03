@@ -1,0 +1,40 @@
+# تنظیمات اصلی سایت
+title: "سرویس املاک ایران"
+description: "راهنمای خرید ملک در ایران برای شهروندان کشورهای همسایه"
+baseurl: ""
+url: "https://USERNAME.github.io" # آدرس سایتت رو اینجا بذار
+
+# تنظیمات Jekyll
+theme: minima
+markdown: kramdown
+highlighter: rouge
+permalink: /:categories/:title/
+
+# افزونه‌ها
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# تنظیمات منو
+navigation:
+  - title: "خانه"
+    url: /
+  - title: "املاک"
+    url: /properties/
+  - title: "راهنمای قانونی" 
+    url: /legal-guide/
+  - title: "مشاوره"
+    url: /consultation/
+  - title: "تماس"
+    url: /contact/
+
+# اطلاعات تماس
+contact:
+  phone: "+98-21-xxxxxxxx"
+  email: "info@yoursite.com"
+  address: "تهران، ایران"
+
+# تنظیمات زبان
+lang: fa
+direction: rtl
